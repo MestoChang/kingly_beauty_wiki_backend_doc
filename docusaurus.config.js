@@ -13,8 +13,7 @@ const isGitHubPages = process.env.GITHUB_PAGES === "true";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: "後臺管理系統說明文件",
-    tagline:
-        "文件紀錄後臺管理系統如何操作，依據不同帳號等級區分功能權限等說明事項。",
+    tagline: "此為後臺管理系統架構規劃文件，包含平台各項功能子系統說明。",
     favicon: "img/favicon.ico",
 
     // 設定 github page 相關 start
