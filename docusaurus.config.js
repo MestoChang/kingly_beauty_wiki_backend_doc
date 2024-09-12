@@ -12,7 +12,7 @@ const isGitHubPages = process.env.GITHUB_PAGES === "true";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "後臺管理系統說明文件",
+    title: "後臺管理系統文件",
     tagline: "此為後臺管理系統架構規劃文件，包含平台各項功能子系統說明。",
     favicon: "img/favicon.ico",
 
@@ -90,13 +90,13 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             // Replace with your project's social card
-            image: "img/docusaurus-social-card.jpg",
+            // image: "static/img/docusaurus-social-card.jpg",
             navbar: {
                 title: "後臺管理系統文件",
-                logo: {
-                    alt: "My Site Logo",
-                    src: "img/logo.svg",
-                },
+                // logo: {
+                //     alt: "My Site Logo",
+                //     src: "static/img/logo.svg",
+                // },
                 items: [
                     {
                         type: "docSidebar",
@@ -114,49 +114,48 @@ const config = {
             },
             footer: {
                 style: "dark",
-                links: [
-                    {
-                        title: "關於我們",
-                        items: [
-                            {
-                                label: "後臺管理系統",
-                                to: "/docs/intro",
-                            },
-                        ],
-                    },
-
-                    // {
-                    //   title: "Community",
-                    //   items: [
-                    //     {
-                    //       label: "Stack Overflow",
-                    //       href: "https://stackoverflow.com/questions/tagged/docusaurus",
-                    //     },
-                    //     {
-                    //       label: "Discord",
-                    //       href: "https://discordapp.com/invite/docusaurus",
-                    //     },
-                    //     {
-                    //       label: "Twitter",
-                    //       href: "https://twitter.com/docusaurus",
-                    //     },
-                    //   ],
-                    // },
-                    {
-                        title: "More",
-                        items: [
-                            {
-                                label: "Blog",
-                                to: "/blog",
-                            },
-                            {
-                                label: "GitHub",
-                                href: "https://github.com/facebook/docusaurus",
-                            },
-                        ],
-                    },
-                ],
-                copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+                // links: [
+                //     {
+                //         title: "關於我們",
+                //         items: [
+                //             {
+                //                 label: "後臺管理系統",
+                //                 to: "/docs/intro",
+                //             },
+                //         ],
+                //     },
+                // {
+                //   title: "Community",
+                //   items: [
+                //     {
+                //       label: "Stack Overflow",
+                //       href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                //     },
+                //     {
+                //       label: "Discord",
+                //       href: "https://discordapp.com/invite/docusaurus",
+                //     },
+                //     {
+                //       label: "Twitter",
+                //       href: "https://twitter.com/docusaurus",
+                //     },
+                //   ],
+                // },
+                // {
+                //     title: "More",
+                //     items: [
+                //         {
+                //             label: "Blog",
+                //             to: "/blog",
+                //         },
+                //         {
+                //             label: "GitHub",
+                //             href: "https://github.com/facebook/docusaurus",
+                //         },
+                //     ],
+                // },
+                // ],
+                copyright: `Copyright © ${new Date().getFullYear()}. 王道機器人股份有限公司`,
             },
             prism: {
                 theme: prismThemes.github,

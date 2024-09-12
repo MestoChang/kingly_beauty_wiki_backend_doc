@@ -4,34 +4,50 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
     {
-        title: "Easy to Use",
+        title: "後臺管理系統",
         Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
         description: (
             <>
-                Docusaurus was designed from the ground up to be easily
-                installed and used to get your website up and running quickly.
+                <a
+                    className="button button--primary button--lg"
+                    href="https://wiki.kinglyrobot.com/"
+                    target="_blank"
+                    title="後臺管理系統"
+                >
+                    後臺管理系統入口
+                </a>
             </>
         ),
     },
     {
-        title: "Focus on What Matters",
+        title: "美容百科",
         Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
         description: (
             <>
-                Docusaurus lets you focus on your docs, and we&apos;ll do the
-                chores. Go ahead and move your docs into the <code>docs</code>{" "}
-                directory.
+                <a
+                    className="button button--primary button--lg"
+                    href="https://beauty.kinglyrobot.com/"
+                    target="_blank"
+                    title="美容百科前端網站"
+                >
+                    美容百科前端網站
+                </a>
             </>
         ),
     },
     {
-        title: "Powered by React",
+        title: "運動百科",
         Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
         description: (
             <>
-                Extend or customize your website layout by reusing React.
-                Docusaurus can be extended while reusing the same header and
-                footer.
+                <a
+                    className="button button--primary button--lg"
+                    href="https://sport.kinglyrobot.com/"
+                    target="_blank"
+                    title="運動百科前端網站"
+                >
+                    運動百科前端網站
+                </a>
             </>
         ),
     },
@@ -44,7 +60,7 @@ function Feature({ Svg, title, description }) {
                 <Svg className={styles.featureSvg} role="img" />
             </div>
             <div className="text--center padding-horiz--md">
-                <Heading as="h3">{title}</Heading>
+                {/* <Heading as="h3">{title}</Heading> */}
                 <p>{description}</p>
             </div>
         </div>
