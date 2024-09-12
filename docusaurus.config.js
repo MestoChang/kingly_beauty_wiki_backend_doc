@@ -6,6 +6,10 @@
 
 import { themes as prismThemes } from "prism-react-renderer";
 
+// 判斷當前環境是否是 vercel 還是 github pages
+const isVercel = process.env.VERCEL === "true";
+const isGitHubPages = process.env.GITHUB_PAGES === "true";
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: "後臺管理系統說明文件",
@@ -13,18 +17,17 @@ const config = {
         "文件紀錄後臺管理系統如何操作，依據不同帳號等級區分功能權限等說明事項。",
     favicon: "img/favicon.ico",
 
-    // Set the production url of your site here
-    url: "https://your-docusaurus-site.example.com",
-    // Set the /<baseUrl>/ pathname under which your site is served
-    // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: "/",
+    // 設定 github page 相關 start
+    url: isVercel
+        ? "https://kingly-beauty-wiki-backend-doc.vercel.app/"
+        : "https://kingly_beauty_wiki_backend_doc.github.io",
+    baseUrl: isGitHubPages ? "/kingly_beauty_wiki_backend_doc/" : "/",
 
-    // GitHub pages deployment config.
-    // If you aren't using GitHub pages, you don't need these.
-    organizationName: "facebook", // Usually your GitHub org/user name.
-    projectName: "docusaurus", // Usually your repo name.
+    organizationName: "kingly_beauty_wiki",
+    projectName: "kingly_beauty_wiki_backend_doc",
+    // 設定 github page 相關 end
 
-    onBrokenLinks: "throw",
+    onBrokenLinks: "throw", // 'ignore' 允許建構失敗仍繼續，或者 'log' 來記錄錯誤但不阻止構建
     onBrokenMarkdownLinks: "warn",
 
     // Even if you don't use internationalization, you can use this field to set
