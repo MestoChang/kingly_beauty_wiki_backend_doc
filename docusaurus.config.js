@@ -10,8 +10,6 @@ import { themes as prismThemes } from "prism-react-renderer";
 const isVercel = process.env.VERCEL === "true";
 const isGitHubPages = process.env.GITHUB_PAGES === "true";
 
-console.log(isGitHubPages);
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: "後臺管理系統說明文件",
@@ -23,7 +21,7 @@ const config = {
     url: isVercel
         ? "https://kingly-beauty-wiki-backend-doc.vercel.app/"
         : "https://kingly_beauty_wiki_backend_doc.github.io",
-    baseUrl: isGitHubPages ? "/kingly_beauty_wiki_backend_doc/" : "/",
+    baseUrl: isVercel ? "/" : "/kingly_beauty_wiki_backend_doc/",
 
     organizationName: "kingly_beauty_wiki",
     projectName: "kingly_beauty_wiki_backend_doc",
