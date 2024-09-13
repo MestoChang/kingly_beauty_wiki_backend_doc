@@ -7,6 +7,7 @@
 import { themes as prismThemes } from "prism-react-renderer";
 
 // 判斷當前環境是否是 vercel 還是 github pages
+const isVercel = process.env.VERCEL === "1" || process.env.VERCEL === "true";
 // const isVercel = process.env.VERCEL === "true";
 // const isGitHubPages = process.env.GITHUB_PAGES === "true";
 
@@ -17,17 +18,17 @@ const config = {
     favicon: "img/favicon.ico",
 
     // in vercel
-    url: "https://kingly-beauty-wiki-backend-doc.vercel.app",
-    baseUrl: "/",
+    // url: "https://kingly-beauty-wiki-backend-doc.vercel.app",
+    // baseUrl: "/",
 
     // 設定 github page 相關 start
     // url: "https://mestochang.github.io/kingly_beauty_wiki_backend_doc/",
     // baseUrl: "/kingly_beauty_wiki_backend_doc/",
 
-    // url: isVercel ? "https://kingly-beauty-wiki-backend-doc.vercel.app"
-    //     : "https://mestochang.github.io/kingly_beauty_wiki_backend_doc/",
-    // baseUrl: isVercel ? "/" : "/kingly_beauty_wiki_backend_doc/",
-    // baseUrl: isGitHubPages ? "/kingly_beauty_wiki_backend_doc/" : "/",
+    url: isVercel
+        ? "https://kingly-beauty-wiki-backend-doc.vercel.app"
+        : "https://kingly_beauty_wiki_backend_doc.github.io",
+    baseUrl: isVercel ? "/" : "/kingly_beauty_wiki_backend_doc/",
 
     organizationName: "mestochang",
     projectName: "kingly_beauty_wiki_backend_doc",
