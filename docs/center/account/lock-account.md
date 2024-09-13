@@ -1,6 +1,6 @@
 ---
 title: 凍結帳號
-sidebar_position: 1.3
+sidebar_position: 2.4
 ---
 
 # 凍結帳號
