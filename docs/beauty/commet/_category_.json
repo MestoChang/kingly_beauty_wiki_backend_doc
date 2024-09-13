@@ -1,0 +1,8 @@
+{
+    "label": "留言管理",
+    "position": 7,
+    "link": {
+        "type": "generated-index",
+        "description": "留言管理相關操作"
+    }
+}

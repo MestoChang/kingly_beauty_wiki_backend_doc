@@ -1,0 +1,8 @@
+{
+    "label": "主題內容管理",
+    "position": 4,
+    "link": {
+        "type": "generated-index",
+        "description": "主題內容管理相關操作"
+    }
+}
