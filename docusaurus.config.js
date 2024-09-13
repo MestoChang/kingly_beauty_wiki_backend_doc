@@ -30,11 +30,12 @@ const config = {
     // baseUrl: isVercel ? "/" : "/kingly_beauty_wiki_backend_doc/",
     // baseUrl: isGitHubPages ? "/kingly_beauty_wiki_backend_doc/" : "/",
 
-    // organizationName: "kingly_beauty_wiki",
-    // projectName: "kingly_beauty_wiki_backend_doc",
+    organizationName: "kingly_beauty_wiki",
+    projectName: "kingly_beauty_wiki_backend_doc",
     // 設定 github page 相關 end
 
-    onBrokenLinks: "throw", // 'ignore' 允許建構失敗仍繼續，或者 'log' 來記錄錯誤但不阻止構建
+    // 'ignore' 允許建構失敗仍繼續，或者 'log' 來記錄錯誤但不阻止構建, throw 來拋出錯誤
+    onBrokenLinks: "log",
     onBrokenMarkdownLinks: "warn",
 
     // Even if you don't use internationalization, you can use this field to set
