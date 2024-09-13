@@ -20,14 +20,18 @@ const config = {
     url: "https://kingly-beauty-wiki-backend-doc.vercel.app",
     baseUrl: "/",
 
+    // in github pages
+    // url: "https://mestochang.github.io/kingly_beauty_wiki_backend_doc/",
+    // baseUrl: "/kingly_beauty_wiki_backend_doc/",
+
     // 設定 github page 相關 start
     // url: isVercel ? "https://kingly-beauty-wiki-backend-doc.vercel.app"
     //     : "https://mestochang.github.io/kingly_beauty_wiki_backend_doc/",
     // baseUrl: isVercel ? "/" : "/kingly_beauty_wiki_backend_doc/",
     // baseUrl: isGitHubPages ? "/kingly_beauty_wiki_backend_doc/" : "/",
 
-    organizationName: "kingly_beauty_wiki",
-    projectName: "kingly_beauty_wiki_backend_doc",
+    // organizationName: "kingly_beauty_wiki",
+    // projectName: "kingly_beauty_wiki_backend_doc",
     // 設定 github page 相關 end
 
     onBrokenLinks: "throw", // 'ignore' 允許建構失敗仍繼續，或者 'log' 來記錄錯誤但不阻止構建
