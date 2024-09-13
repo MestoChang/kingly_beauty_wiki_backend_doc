@@ -20,17 +20,16 @@ const config = {
     url: "https://kingly-beauty-wiki-backend-doc.vercel.app",
     baseUrl: "/",
 
-    // in github pages
+    // 設定 github page 相關 start
     // url: "https://mestochang.github.io/kingly_beauty_wiki_backend_doc/",
     // baseUrl: "/kingly_beauty_wiki_backend_doc/",
 
-    // 設定 github page 相關 start
     // url: isVercel ? "https://kingly-beauty-wiki-backend-doc.vercel.app"
     //     : "https://mestochang.github.io/kingly_beauty_wiki_backend_doc/",
     // baseUrl: isVercel ? "/" : "/kingly_beauty_wiki_backend_doc/",
     // baseUrl: isGitHubPages ? "/kingly_beauty_wiki_backend_doc/" : "/",
 
-    organizationName: "kingly_beauty_wiki",
+    organizationName: "mestochang",
     projectName: "kingly_beauty_wiki_backend_doc",
     // 設定 github page 相關 end
 
