@@ -4,3 +4,5 @@ sidebar_position: 2.1
 ---
 
 # 登入及選擇平台
+
+![登入畫面](./img/login.png)

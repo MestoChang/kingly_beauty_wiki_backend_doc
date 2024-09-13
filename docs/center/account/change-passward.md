@@ -4,3 +4,5 @@ sidebar_position: 1.2
 ---
 
 # 變更密碼
+
+![變更密碼](./img/change-password.png)
