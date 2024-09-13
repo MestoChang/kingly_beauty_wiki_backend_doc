@@ -18,7 +18,7 @@ const config = {
 
     // 設定 github page 相關 start
     url: isVercel
-        ? "https://kingly-beauty-wiki-backend-doc.vercel.app/"
+        ? "https://kingly-beauty-wiki-backend-doc.vercel.app"
         : "https://kingly_beauty_wiki_backend_doc.github.io",
     baseUrl: isVercel ? "/" : "/kingly_beauty_wiki_backend_doc/",
 
