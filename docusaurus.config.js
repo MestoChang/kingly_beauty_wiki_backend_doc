@@ -16,18 +16,17 @@ const config = {
     tagline: "此為後臺管理系統架構規劃文件，包含平台各項功能子系統說明。",
     favicon: "img/favicon.ico",
 
-    // 設定 github page 相關 start
-    /*
-    url: isVercel ? "https://kingly-beauty-wiki-backend-doc.vercel.app"
-        : "https://kingly_beauty_wiki_backend_doc.github.io",
-    baseUrl: isVercel ? "/" : "/kingly_beauty_wiki_backend_doc/",
-    */
-    url: process.env.VERCEL_URL
-        ? `https://${process.env.VERCEL_URL}`
-        : "https://kingly_beauty_wiki_backend_doc.github.io",
-    baseUrl: process.env.VERCEL_URL ? "/" : "/kingly_beauty_wiki_backend_doc/",
+    // in vercel
+    url: "https://kingly-beauty-wiki-backend-doc.vercel.app",
+    baseUrl: "/",
 
-    organizationName: "mestochang",
+    // 設定 github page 相關 start
+    // url: isVercel ? "https://kingly-beauty-wiki-backend-doc.vercel.app"
+    //     : "https://mestochang.github.io/kingly_beauty_wiki_backend_doc/",
+    // baseUrl: isVercel ? "/" : "/kingly_beauty_wiki_backend_doc/",
+    // baseUrl: isGitHubPages ? "/kingly_beauty_wiki_backend_doc/" : "/",
+
+    organizationName: "kingly_beauty_wiki",
     projectName: "kingly_beauty_wiki_backend_doc",
     // 設定 github page 相關 end
 
