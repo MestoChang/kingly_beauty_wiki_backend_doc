@@ -22,7 +22,7 @@ const config = {
         : "https://kingly_beauty_wiki_backend_doc.github.io",
     baseUrl: isVercel ? "/" : "/kingly_beauty_wiki_backend_doc/",
 
-    organizationName: "kingly_beauty_wiki",
+    organizationName: "kingly_robot",
     projectName: "kingly_beauty_wiki_backend_doc",
     // 設定 github page 相關 end
 
