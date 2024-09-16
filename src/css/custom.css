@@ -36,3 +36,19 @@
 footer {
     font-size: 0.85rem;
 }
+
+.theme-doc-markdown table {
+    overflow-x: auto;
+}
+
+.theme-doc-markdown table tr:first-child th:first-child {
+    min-width: 80px;
+}
+
+.theme-doc-markdown table tr:first-child th {
+    min-width: 136px;
+}
+
+.theme-doc-markdown table tr:first-child th:last-child {
+    min-width: 250px;
+}
