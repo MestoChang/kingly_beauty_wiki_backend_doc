@@ -97,9 +97,11 @@ const config = {
 
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+
         ({
             // Replace with your project's social card
             // image: "static/img/docusaurus-social-card.jpg",
+
             navbar: {
                 title: "後臺管理系統文件",
                 // logo: {
@@ -176,6 +178,15 @@ const config = {
                 respectPrefersColorScheme: true, // 根據瀏覽器設定自動切換主題
             },
         }),
+    themes: [
+        [
+            require.resolve("@easyops-cn/docusaurus-search-local"),
+            {
+                hashed: true,
+                language: ["en", "zh"],
+            },
+        ],
+    ],
 };
 
 export default config;

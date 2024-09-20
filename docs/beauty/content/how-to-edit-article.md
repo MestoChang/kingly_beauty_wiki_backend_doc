@@ -1,6 +1,6 @@
 ---
-title: 文章列表
-sidebar_position: 2.2
+title: 如何編輯文章
+sidebar_position: 3.2
 ---
 
-# 文章列表
+# 如何編輯文章
