@@ -31,7 +31,7 @@ sidebar_position: 1.1
 
 ### 已發佈
 
--   已發佈後文章不可編輯修改，需停用後才可進行操作，參考[如何修改已發佈的文章](./how-to-edit-published-article.md)。
+-   已發佈後文章不可編輯修改，需停用後才可進行操作，參考[如何修改文章](./how-to-edit-article.md)。
 
 ### 停用
 
