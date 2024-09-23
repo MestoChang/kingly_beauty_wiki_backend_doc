@@ -18,11 +18,13 @@ sidebar_position: 1.2
     > 參考 [如何新增文章](./how-to-add-article.md)、[文章狀態與限制說明](./article-status.md)
 
     - 文章是是否為 `已發布` 狀態，僅有已發布狀態才可在網站上顯示。
+    ![確認文章狀態](img/check-article-status.png)
 
 ### 關鍵字設定
 
     - 確認文章所設定的關鍵字包含哪些。
     - 設定關鍵字的時候儘量不要只設定一個，這樣不管是搜索功能或是文章列表都可增加顯示機率。
+    ![檢查關鍵字](img/check-article-keywords.png)
 
 ### 章節調整
 
@@ -30,5 +32,8 @@ sidebar_position: 1.2
 
     - 確定文章內的關鍵字是否有任一出現在章節管理內。
     - 如果沒有任何文章設定的關鍵字被設定為小節，文章即不會顯示在文章列表。
+        - 文章設定的關鍵字有出現在前端
+        ![選擇關鍵字](img/show-article-on-web-02.png)
 
-TODO 補圖片
+        - 可看到新增的文章
+        ![找到該篇文章](img/show-article-on-web-01.png)

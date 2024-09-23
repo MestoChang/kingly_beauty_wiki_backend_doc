@@ -9,15 +9,23 @@ sidebar_position: 2.1
 
 ## 進入章節管理頁面
 
-![進入章節管理頁面](img/go-to-chapter-manage.png)
+1. 點選 sidebar `主題內容管理` 展開子選單，選擇 `章節管理`
 
-![章節管理](img/chapter-manage.png)
+    ![進入章節管理頁面](img/go-to-chapter-manage.png)
+
+2. 進入章節管理頁面
+
+    ![章節管理](img/chapter-manage-01.png)
+
+章節管理這裡即對應前端網站顯示畫面:
+![章節管理](img/chapter-manage-02.png)
+![對應前端畫面](img/chapter-on-web.png)
 
 ## 進行章調整
 
 :::danger
 
-做任何變動都要記得最後點擊 套用變更 才會生效!!
+做任何變動都要記得最後都需要點擊 套用變更 才會生效!!
 
 ![套用變更](img/chapter-save-changes.png)
 :::
