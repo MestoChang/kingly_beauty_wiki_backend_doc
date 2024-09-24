@@ -28,7 +28,7 @@ sidebar_position: 3.1
 
 檢查文章內關鍵字是否都已新增至關鍵字列表。
 
-![關鍵字列表](../keyword/img/keyword-list.png)
+![關鍵字列表](../keyword/img/keyword-list-01.png)
 
 ## 新增文章
 
