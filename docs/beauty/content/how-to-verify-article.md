@@ -13,11 +13,11 @@ sidebar_position: 3.4
 
     ![進入待審文章列表](img/go-to-verify-article-list.png)
 
-2. 選取要修改的文章
+2. 選取要審核的文章
 
     ![待審文章列表](img/verify-article-list.png)
 
-3. 進入文章內容頁面
+3. 進入審核文章內容頁面
    ![文章內容頁面](img/verify-article-01.png)
 
 4. 拉到底部，進行審核操作
