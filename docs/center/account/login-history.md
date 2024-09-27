@@ -7,4 +7,4 @@ sidebar_position: 1.4
 
 檢視帳號的登入狀態。
 
-![登入記錄畫面](./img/login-history.png)
+![登入記錄畫面](./img/admin-account-login-history.png)
