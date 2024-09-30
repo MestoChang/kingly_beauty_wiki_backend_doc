@@ -5,8 +5,6 @@ sidebar_position: 1.1
 
 # 如何新增媒體類別
 
-<!-- TODO 補圖片 -->
-
 1. 進入媒體庫，點選 新增類別
    ![新增媒體類別](img/add-media-folder-01.png)
 
