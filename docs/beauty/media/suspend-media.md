@@ -1,9 +1,9 @@
 ---
-title: 如何停用媒體
-sidebar_position: 2.1
+title: 停用與還原媒體
+sidebar_position: 2.3
 ---
 
-# 如何停用媒體
+# 停用與還原媒體
 
 停用只是暫停前端的顯示，圖片檔案位置及資料並不會變化。
 
