@@ -7,4 +7,8 @@ sidebar_position: 1.4
 
 檢視帳號的登入狀態。
 
-![登入記錄畫面](./img/admin-account-login-history.png)
+# 操作說明
+
+1. 登入時間：顯示每次管理者登入的時間 (僅顯示最近 15筆)。
+2. 登入狀態：顯示每次管理者登入的結果，明確標示成功或是失敗。
+   ![登入記錄畫面](./img/admin-account-login-history.png)
