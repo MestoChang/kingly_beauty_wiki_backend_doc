@@ -1,6 +1,6 @@
 ---
 title: 管理員帳號層級說明
-sidebar_position: 1.0
+sidebar_position: 0.0
 ---
 
 # 管理員帳號層級說明
