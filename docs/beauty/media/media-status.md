@@ -31,7 +31,7 @@ sidebar_position: 0
 ### 刪除
 
 -   可從媒體庫回收桶還原，參考[如何刪除及還原媒體](./delete-and-recover-media.md/#如何還原媒體)。
--   可永久刪除媒體，有權限限制，參考[管理員帳號層級說明](../../center/admin/administer-rules.md)及[永久刪除媒體](delete-media-forever.md)。
+-   可永久刪除媒體，有權限限制，參考[管理員帳號及身分權限說明](../../center/admin/administer-rules.md)及[永久刪除媒體](delete-media-forever.md)。
 
 ## 類別說明
 

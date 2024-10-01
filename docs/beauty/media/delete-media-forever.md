@@ -5,7 +5,7 @@ sidebar_position: 2.5
 
 # 永久刪除媒體
 
-此操作行為有權限限制，參考[管理員帳號層級說明](../../center/admin/administer-rules.md)。
+此操作行為有權限限制，參考[管理員帳號及身分權限說明](../../center/admin/administer-rules.md)。
 
 :::danger
 此操作不可還原，請謹慎操作!!

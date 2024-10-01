@@ -48,7 +48,7 @@ sidebar_position: 1.1
 
 -   不可編輯。
 -   僅可操作審核相關功能，參考[審核文章操作](./how-to-verify-article.md)。
--   權限限制參考[管理員帳號層級說明](../../center/admin/administer-rules.md)。
+-   權限限制參考[管理員帳號及身分權限說明](../../center/admin/administer-rules.md)。
 -   審核中狀態下，點取消送審，文章會返回送審前的狀態 -> 草稿 或者 已退回。
 
 ### 已退回
