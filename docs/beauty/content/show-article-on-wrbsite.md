@@ -15,7 +15,7 @@ sidebar_position: 1.2
 
 ### 文章的狀態
 
-    > 參考 [如何新增文章](./how-to-add-article.md)、[文章狀態與限制說明](./article-status.md)
+    > 參考 [如何新增文章](./how-to-add-article.md)、[文章欄位限制與說明](./article-status.md)
 
     - 文章是是否為 `已發布` 狀態，僅有已發布狀態才可在網站上顯示。
     ![確認文章狀態](img/check-article-status.png)
