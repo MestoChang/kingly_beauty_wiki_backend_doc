@@ -1,6 +1,6 @@
 ---
 title: 永久刪除文章
-sidebar_position: 3.6
+sidebar_position: 3.7
 ---
 
 # 永久刪除文章

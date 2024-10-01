@@ -27,5 +27,10 @@ sidebar_position: 3.4
 
     - 5-1. 核可：核可文章會跳出再確認的視窗。
       ![核可文章](img/comfrim-verify-article.png)
+      :::note
+      若文章沒有設定排程，核可後文章會立即發布。若文章有設定排程且未到指定發布時間，文章會依照指定時間才發布，若已超過排程的時間，則會立即發布。
+      :::
+      <br/>
     - 5-2. 退回：退回文章需勾選原因。
-      ![退回文章](img/reject-article.png)
+      ![退回文章](img/reject-article-01.png)
+      退回後文章狀態變更為 已退回，參考[文章被退回怎麼處理](./deal-with-reject-article.md)。
