@@ -5,7 +5,7 @@ sidebar_position: 1.2
 
 # 編輯管理員身分權限
 
-<!-- TODO -->
+<!-- TODO 圖檔標示 -->
 
 1. 選擇要編輯的管理員
    ![編輯管理員](img/edit-admin-01.png)
