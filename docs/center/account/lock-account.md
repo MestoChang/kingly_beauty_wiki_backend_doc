@@ -18,10 +18,10 @@ sidebar_position: 2.4
 
 :::warning 條件限制
 B 級以上管理員才有解除凍結帳號權限。<br/>
-可參考 [管理員帳號層級說明](../admin/administer-rules.md)
+可參考 [管理員帳號及身分權限說明](../admin/administer-rules.md)
 :::
 
-1. 在[管理員帳號列表](../admin/admin-list.md)內可以看到帳號狀況，
+1. 在管理員帳號列表內可以看到帳號狀況，
    ![管理員帳號列表](img/administer-list-freeze-admin.png)
 
 2. 點選被凍結的帳號，進入該帳號資訊頁面
