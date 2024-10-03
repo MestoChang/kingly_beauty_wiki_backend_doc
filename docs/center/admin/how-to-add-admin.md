@@ -5,6 +5,12 @@ sidebar_position: 1.1
 
 # 如何新增管理員
 
+## 權限限制
+
+B 級以上管理員才有權限，參考 [管理員帳號及身分權限說明](./administer-rules.md)。
+
+## 操作流程
+
 1.  進入管理員列表頁面
     ![新增管理員](img/add-admin-01.png)
 
@@ -32,5 +38,5 @@ sidebar_position: 1.1
     ![新增管理員](img/add-admin-04.png)
 
 5.  設定完成，點選 儲存
-    <!-- TODO 重新截圖 -->
+
     ![新增管理員](img/add-admin-05.png)
