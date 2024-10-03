@@ -5,8 +5,6 @@ sidebar_position: 2.1
 
 # 如何新增身分
 
-<!-- TODO 圖檔標示 -->
-
 1. 進入身份權限管理，點選新增
    ![新增身分](img/add-role-01.png)
 
