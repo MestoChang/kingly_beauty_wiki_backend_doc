@@ -7,7 +7,7 @@ sidebar_position: 1.1
 
 ## 權限限制
 
-B 級以上管理員才有權限，參考 [管理員帳號及身分權限說明](./administer-rules.md)。
+B 級以上管理員才有操作權限，參考 [管理員帳號及身分權限說明](./administer-rules.md)。
 
 ## 操作流程
 

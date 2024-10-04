@@ -65,3 +65,7 @@ img {
 /* .theme-doc-markdown table tr:first-child th:last-child {
     min-width: 200px;
 } */
+
+.hidden {
+    display: none !important;
+}
