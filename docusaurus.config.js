@@ -13,8 +13,9 @@ const isVercel = process.env.VERCEL === "1" || process.env.VERCEL === "true";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "後臺管理系統文件",
-    tagline: "此為後臺管理系統架構規劃文件，包含平台各項功能子系統說明。",
+    title: "後臺管理系統教學",
+    tagline:
+        "此為後臺管理系統架構規劃文件，包含平台各項功能子系統說明及操作教學。",
     favicon: "img/favicon.ico",
 
     // in vercel
@@ -73,21 +74,21 @@ const config = {
                     editUrl:
                         "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
                 },
-                blog: {
-                    showReadingTime: true,
-                    feedOptions: {
-                        type: ["rss", "atom"],
-                        xslt: true,
-                    },
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-                    // Useful options to enforce blogging best practices
-                    onInlineTags: "warn",
-                    onInlineAuthors: "warn",
-                    onUntruncatedBlogPosts: "warn",
-                },
+                // blog: {
+                //     showReadingTime: true,
+                //     feedOptions: {
+                //         type: ["rss", "atom"],
+                //         xslt: true,
+                //     },
+                //     // Please change this to your repo.
+                //     // Remove this to remove the "edit this page" links.
+                //     editUrl:
+                //         "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+                //     // Useful options to enforce blogging best practices
+                //     onInlineTags: "warn",
+                //     onInlineAuthors: "warn",
+                //     onUntruncatedBlogPosts: "warn",
+                // },
                 theme: {
                     customCss: "./src/css/custom.css",
                 },
@@ -103,7 +104,7 @@ const config = {
             // image: "static/img/docusaurus-social-card.jpg",
 
             navbar: {
-                title: "後臺管理系統文件",
+                title: "後臺管理系統教學",
                 // logo: {
                 //     alt: "My Site Logo",
                 //     src: "static/img/logo.svg",
