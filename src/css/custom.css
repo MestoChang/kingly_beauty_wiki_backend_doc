@@ -30,7 +30,16 @@
 }
 
 footer {
+    margin-top: 2rem;
+}
+
+.footer__title {
+    color: var(--ifm-color-primary);
+}
+
+.footer__copyright {
     font-size: 0.8rem;
+    margin-top: 3rem;
 }
 
 h3 {

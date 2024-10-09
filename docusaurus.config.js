@@ -126,47 +126,52 @@ const config = {
             },
             footer: {
                 style: "light",
-                // links: [
-                //     {
-                //         title: "關於我們",
-                //         items: [
-                //             {
-                //                 label: "後臺管理系統",
-                //                 to: "/docs/intro",
-                //             },
-                //         ],
-                //     },
-                // {
-                //   title: "Community",
-                //   items: [
-                //     {
-                //       label: "Stack Overflow",
-                //       href: "https://stackoverflow.com/questions/tagged/docusaurus",
-                //     },
-                //     {
-                //       label: "Discord",
-                //       href: "https://discordapp.com/invite/docusaurus",
-                //     },
-                //     {
-                //       label: "Twitter",
-                //       href: "https://twitter.com/docusaurus",
-                //     },
-                //   ],
-                // },
-                // {
-                //     title: "More",
-                //     items: [
-                //         {
-                //             label: "Blog",
-                //             to: "/blog",
-                //         },
-                //         {
-                //             label: "GitHub",
-                //             href: "https://github.com/facebook/docusaurus",
-                //         },
-                //     ],
-                // },
-                // ],
+                links: [
+                    {
+                        title: "網站連結",
+                        items: [
+                            {
+                                label: "後台管理系統入口",
+                                to: "https://wiki.kinglyrobot.com/",
+                            },
+                            {
+                                label: "美容百科網站",
+                                to: "https://beauty.kinglyrobot.com/",
+                            },
+
+                            {
+                                label: "運動百科網站",
+                                to: "https://sport.kinglyrobot.com/",
+                            },
+                        ],
+                    },
+                    {
+                        title: "相關文件連結",
+                        items: [
+                            {
+                                label: "美容百科前端網站說明",
+                                to: "https://kingly-beauty-wiki-frontend-doc.vercel.app/",
+                            },
+                            {
+                                label: "後台管理系統教學",
+                                to: "/",
+                            },
+                        ],
+                    },
+                    {
+                        title: "Links",
+                        items: [
+                            {
+                                label: "backend-docs",
+                                to: "https://kingly-beauty-wiki-frontend-doc.vercel.app/",
+                            },
+                            {
+                                label: "frontend-docs",
+                                to: "/",
+                            },
+                        ],
+                    },
+                ],
                 copyright: `Copyright © ${new Date().getFullYear()}. 王道機器人股份有限公司`,
             },
             prism: {

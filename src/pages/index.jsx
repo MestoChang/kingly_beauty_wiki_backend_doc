@@ -10,7 +10,9 @@ import styles from "./index.module.css";
 function HomepageHeader() {
     const { siteConfig } = useDocusaurusContext();
     return (
-        <header className={` ${clsx("hero hero--primary", styles.heroBanner)}`}>
+        <header
+            className={` ${clsx("hero hero--primary", styles.heroBanner)} `}
+        >
             <div className="container h-full">
                 <Heading as="h1" className="hero__title">
                     {siteConfig.title}
@@ -19,9 +21,9 @@ function HomepageHeader() {
                 <div className={styles.buttons}>
                     <Link
                         className="button button--secondary button--lg"
-                        to="/docs/update-log"
+                        to="/docs/intro"
                     >
-                        閱讀文件
+                        開始閱讀文件
                     </Link>
                 </div>
             </div>
@@ -39,7 +41,7 @@ export default function Home() {
             // description="Description will go into a meta tag in <head />"
         >
             <HomepageHeader />
-            <main>
+            <main className="container">
                 <HomepageFeatures />
             </main>
         </Layout>
