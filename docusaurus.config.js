@@ -163,11 +163,11 @@ const config = {
                         items: [
                             {
                                 label: "backend-docs",
-                                to: "https://kingly-beauty-wiki-frontend-doc.vercel.app/",
+                                to: "https://mestochang.github.io/kingly_beauty_wiki_backend_doc/",
                             },
                             {
                                 label: "frontend-docs",
-                                to: "/",
+                                to: "https://ben0588.github.io/kingly_beauty_wiki_frontend_doc/",
                             },
                         ],
                     },
