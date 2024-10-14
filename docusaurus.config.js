@@ -154,7 +154,7 @@ const config = {
                             },
                             {
                                 label: "後台管理系統教學",
-                                to: "/",
+                                to: "https://kingly-beauty-wiki-backend-doc.vercel.app/",
                             },
                         ],
                     },
