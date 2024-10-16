@@ -132,7 +132,7 @@ const config = {
                         items: [
                             {
                                 label: "後台管理系統入口",
-                                to: "https://wiki.kinglyrobot.com/",
+                                to: "https://wiki.kinglyrobot.com/root",
                             },
                             {
                                 label: "美容百科網站",
