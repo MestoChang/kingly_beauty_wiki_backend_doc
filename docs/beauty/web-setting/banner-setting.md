@@ -7,6 +7,8 @@ sidebar_position: 3
 
 提供了管理者設置網站首頁橫幅廣告（Banner）的功能，包括調整播放間隔、上傳圖片、設置標題及連結等。
 
+> 範例圖片下載 [Banner](../../example-assets/banner/banner.zip)
+
 ## 操作說明
 
 1. **輪播時間設定**：

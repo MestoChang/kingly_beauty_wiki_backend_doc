@@ -7,7 +7,15 @@ sidebar_position: 3.1
 
 說明新增一篇文章的詳細步驟。
 
-> 文章狀態請參考[文章狀態與限制說明](./article-status.md)。
+:::note 文章狀態請參考 [文章狀態與限制說明](./article-status.md)。
+:::
+
+> 範例文章下載：
+> [範例文章--01](../../example-assets/article/ch01-02-003.zip)，
+> [範例文章--02](../../example-assets/article/ch01-03-006.zip)，
+> [範例文章--03](../../example-assets/article/ch02-01-001.zip)，
+> [範例文章--04](../../example-assets/article/ch03-01-005.zip)，
+> [範例文章--05](../../example-assets/article/ch05-01-006.zip)
 
 ## 前置預備
 
