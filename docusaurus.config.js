@@ -18,6 +18,9 @@ const config = {
         "此為後臺管理系統架構規劃文件，包含平台各項功能子系統說明及操作教學。",
     favicon: "img/favicon.ico",
 
+    // tell search engine not to index
+    noIndex: true, // 默认为 `false`
+
     // in vercel
     // url: "https://kingly-beauty-wiki-backend-doc.vercel.app",
     // baseUrl: "/",
@@ -25,6 +28,8 @@ const config = {
     // 設定 github page 相關 start
     // url: "https://mestochang.github.io/kingly_beauty_wiki_backend_doc/",
     // baseUrl: "/kingly_beauty_wiki_backend_doc/",
+
+    // !!! 多語系建構時會影響這個網址判斷， 需要調整
 
     url: isVercel
         ? "https://kingly-beauty-wiki-backend-doc.vercel.app"
@@ -44,13 +49,18 @@ const config = {
     // may want to replace "en" with "zh-Hans".
 
     i18n: {
-        defaultLocale: "zh-Hant", // "en"
-        locales: ["zh-Hant"],
+        defaultLocale: "zh-Hans", // "en"
+        locales: ["zh-Hans", "zh-CN"],
         localeConfigs: {
-            "zh-Hant": {
+            "zh-Hans": {
                 label: "繁體中文",
                 direction: "ltr",
-                htmlLang: "zh-Hant",
+                htmlLang: "zh-Hans",
+            },
+            "zh-CN": {
+                label: "简体中文",
+                direction: "ltr",
+                htmlLang: "zh-CN",
             },
         },
     },
@@ -69,10 +79,11 @@ const config = {
             ({
                 docs: {
                     sidebarPath: "./sidebars.js",
+
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+                    // editUrl:
+                    //     "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
                 },
                 // blog: {
                 //     showReadingTime: true,
@@ -116,13 +127,36 @@ const config = {
                         position: "left",
                         label: "說明文件",
                     },
+                    // {
+                    //     type: "docSidebar",
+                    //     sidebarId: "centerSidebar",
+                    //     position: "left",
+                    //     label: "全域平台",
+                    // },
+                    // {
+                    //     type: "docSidebar",
+                    //     sidebarId: "beautySidebar",
+                    //     position: "left",
+                    //     label: "美容百科",
+                    // },
                     // { to: "/blog", label: "Blog", position: "left" },
-                    {
-                        href: "https://kingly_beauty_wiki_backend_doc.github.io",
-                        label: "GitHub",
-                        position: "right",
-                    },
+                    // {
+                    //     // !!! 與多語系衝突，先隱藏
+                    //     type: "localeDropdown",
+                    //     // queryString: "?persistent=true",
+                    //     position: "right",
+                    // },
+                    // {
+                    //     href: "https://kingly_beauty_wiki_backend_doc.github.io",
+                    //     label: "GitHub",
+                    //     position: "right",
+                    // },
                 ],
+            },
+            docs: {
+                sidebar: {
+                    hideable: true,
+                },
             },
             footer: {
                 style: "light",
