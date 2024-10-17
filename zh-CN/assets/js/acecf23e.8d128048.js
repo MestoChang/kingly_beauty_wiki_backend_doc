@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkingly_beauty_wiki_backend_doc=self.webpackChunkkingly_beauty_wiki_backend_doc||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/kingly_beauty_wiki_backend_doc/zh-CN/blog","blogTitle":"Blog","authorsListPath":"/kingly_beauty_wiki_backend_doc/zh-CN/blog/authors"}')}}]);
