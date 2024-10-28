@@ -9,7 +9,7 @@
         "swizzle": "docusaurus swizzle",
         "deploy": "npm run build && npx gh-pages -d build",
         "clear": "docusaurus clear",
-        "serve": "docusaurus serve",
+        "serve": "docusaurus serve -p 7011",
         "write-translations": "docusaurus write-translations",
         "write-heading-ids": "docusaurus write-heading-ids"
     },

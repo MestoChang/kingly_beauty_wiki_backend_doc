@@ -1,0 +1,8 @@
+{
+    "label": "系統管理員設定",
+    "position": 3,
+    "link": {
+        "type": "generated-index",
+        "description": "管理員帳號權限說明及身分設定"
+    }
+}

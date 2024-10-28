@@ -1,0 +1,8 @@
+{
+    "label": "課程管理",
+    "position": 5,
+    "link": {
+        "type": "generated-index",
+        "description": "課程管理相關操作"
+    }
+}

@@ -49,18 +49,18 @@ const config = {
     // may want to replace "en" with "zh-Hans".
 
     i18n: {
-        defaultLocale: "zh-Hans", // "en"
-        locales: ["zh-Hans", "zh-CN"],
+        defaultLocale: "zh-Hant", // "en"
+        locales: ["zh-Hant", "zh-Hans"],
         localeConfigs: {
-            "zh-Hans": {
+            "zh-Hant": {
                 label: "繁體中文",
                 direction: "ltr",
-                htmlLang: "zh-Hans",
+                htmlLang: "zh-Hant",
             },
-            "zh-CN": {
+            "zh-Hans": {
                 label: "简体中文",
                 direction: "ltr",
-                htmlLang: "zh-CN",
+                htmlLang: "zh-Hans",
             },
         },
     },
@@ -146,6 +146,11 @@ const config = {
                     //     // queryString: "?persistent=true",
                     //     position: "right",
                     // },
+                    {
+                        type: "localeDropdown",
+                        position: "right",
+                        className: "custom-locale-switcher",
+                    },
                     // {
                     //     href: "https://kingly_beauty_wiki_backend_doc.github.io",
                     //     label: "GitHub",

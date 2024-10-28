@@ -1,0 +1,8 @@
+{
+    "label": "關鍵字管理",
+    "position": 8,
+    "link": {
+        "type": "generated-index",
+        "description": "關鍵字管理相關操作"
+    }
+}

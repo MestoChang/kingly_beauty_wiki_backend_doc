@@ -1,0 +1,8 @@
+{
+    "label": "全域平台",
+    "position": 2.1,
+    "link": {
+        "type": "generated-index",
+        "description": "跨平台的管理及管理員帳號權限設定"
+    }
+}

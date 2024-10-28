@@ -1,0 +1,8 @@
+{
+    "label": "帳號基本操作",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "管理員個人帳號權限操作"
+    }
+}
