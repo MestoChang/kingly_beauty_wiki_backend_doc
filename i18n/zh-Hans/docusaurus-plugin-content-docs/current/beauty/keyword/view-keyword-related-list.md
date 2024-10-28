@@ -1,14 +1,14 @@
 ---
-title: 檢視關鍵字的關聯列表
+title: 检视关键字的关联列表
 sidebar_position: 1.4
 ---
 
-# 檢視關鍵字的關聯列表
+# 检视关键字的关联列表
 
-檢視有設定此關鍵字的全部文章、媒體。
+检视有设定此关键字的全部文章、媒体。
 
-1. 點擊關聯數量
-   ![關聯](img/show-related-01.png)
+1. 点击关联数量
+   ![关联](img/show-related-01.png)
 
-2. 檢視關聯列表
-   ![關聯](img/show-related-02.png)
+2. 检视关联列表
+   ![关联](img/show-related-02.png)

@@ -1,137 +1,137 @@
 ---
-title: 如何調整章節
+title: 如何调整章节
 sidebar_position: 2.1
 ---
 
-# 如何調整章節
+# 如何调整章节
 
-網站內文章列表顯示哪些文章，由章節管理設定。
+网站内文章列表显示哪些文章，由章节管理设定。
 
-## 進入章節管理頁面
+## 进入章节管理页面
 
-1. 點選 sidebar `主題內容管理` 展開子選單，選擇 `章節管理`
+1. 点选 sidebar `主题内容管理` 展开子选单，选择 `章节管理`
 
-    ![進入章節管理頁面](img/go-to-chapter-manage.png)
+![进入章节管理页面](img/go-to-chapter-manage.png)
 
-2. 進入章節管理頁面
+2. 进入章节管理页面
 
-    ![章節管理](img/chapter-manage-01.png)
+![章节管理](img/chapter-manage-01.png)
 
-章節管理這裡即對應前端網站顯示畫面:
-![章節管理](img/chapter-manage-02.png)
-![對應前端畫面](img/chapter-on-web.png)
+章节管理这里即对应前端网站显示画面:
+![章节管理](img/chapter-manage-02.png)
+![对应前端画面](img/chapter-on-web.png)
 
-## 進行章調整
+## 进行章调整
 
 :::danger
 
-做任何變動都要記得最後都需要點擊 套用變更 才會生效!!
+做任何变动都要记得最后都需要点击 套用变更 才会生效!!
 
-![套用變更](img/chapter-save-changes.png)
+![套用变更](img/chapter-save-changes.png)
 :::
 
-### 修改章節名稱
+### 修改章节名称
 
 :::warning
 
--   章節名稱不可重複。
+-   章节名称不可重复。
     :::
 
-1. 點擊 `修改`
+1. 点击 `修改`
 
-    ![修改章節名稱](img/edit-chapter-name-01.png)
+![修改章节名称](img/edit-chapter-name-01.png)
 
-2. 此時可編輯章節名稱
+2. 此时可编辑章节名称
 
-    ![修改章節名稱](img/edit-chapter-name-02.png)
+![修改章节名称](img/edit-chapter-name-02.png)
 
-3. 修改完成後點擊 `完成`
+3. 修改完成后点击 `完成`
 
-    ![修改章節名稱](img/edit-chapter-name-03.png)
+![修改章节名称](img/edit-chapter-name-03.png)
 
-4. 套用變更
-   ![套用變更](img/chapter-save-changes.png)
+4. 套用变更
+   ![套用变更](img/chapter-save-changes.png)
 
 ### 新增章
 
 :::warning
 
--   至多上限 6 個章。
--   章節名稱不可重複。
+-   至多上限 6 个章。
+-   章节名称不可重复。
     :::
 
-1. 輸入章節名稱
+1. 输入章节名称
 
-    ![新增章](img/add-chapter-01.png)
+![新增章](img/add-chapter-01.png)
 
-2. 點選 `新增 後，會出現一個新的章節欄位
+2. 点选 `新增 后，会出现一个新的章节栏位
    ![新增章](img/add-chapter-02.png)
 
-3. 必須為新增的章添加至少一個小節
-    > 參考 [新增小節](#新增小節)
+3. 必须为新增的章添加至少一个小节
+    > 参考 [新增小节](#新增小节)
 
-### 刪除章
+### 删除章
 
-:::warning 至少需保留一個章。
+:::warning 至少需保留一个章。
 :::
 
-1. 點擊 刪除章
+1. 点击 删除章
 
-    ![刪除章](img/delete-chapter.png)
+![删除章](img/delete-chapter.png)
 
-2. 套用變更
+2. 套用变更
 
-    ![套用變更](img/chapter-save-changes.png)
+![套用变更](img/chapter-save-changes.png)
 
-## 小節調整
+## 小节调整
 
-### 調整顯示順序
+### 调整显示顺序
 
--   可依照需求調整小節排列順序。
+-   可依照需求调整小节排列顺序。
 
-1. 點擊上下方向鍵，可調整順序
+1. 点击上下方向键，可调整顺序
 
-    ![調整關鍵字順序](img/sort-keywords.png)
+![调整关键字顺序](img/sort-keywords.png)
 
-2. 套用變更
+2. 套用变更
 
-    ![套用變更](img/chapter-save-changes.png)
+![套用变更](img/chapter-save-changes.png)
 
-### 新增小節
-
-:::warning
-
--   僅可新增已有的關鍵字作為小節。
--   最多設定 10 個關鍵字。
--   同個章內不可新增重複小節。
-
-    :::
-
-1. 輸入要新增的關鍵字
-
-    偵測到輸入行為會自動出現下拉選單供選擇，建議直接從下拉選單選比較不會有問題。
-
-    ![新增小節](img/add-chapter-keywords-01.png)
-
-2. 點擊新增
-
-    ![新增小節](img/add-chapter-keywords-02.png)
-
-3. 套用變更
-
-    ![套用變更](img/chapter-save-changes.png)
-
-### 刪除小節
+### 新增小节
 
 :::warning
 
--   每個章至少需要設定一個小節。
+-   仅可新增已有的关键字作为小节。
+-   最多设定 10 个关键字。
+-   同个章内不可新增重复小节。
+
+:::
+
+1. 输入要新增的关键字
+
+侦测到输入行为会自动出现下拉选单供选择，建议直接从下拉选单选比较不会有问题。
+
+![新增小节](img/add-chapter-keywords-01.png)
+
+2. 点击新增
+
+![新增小节](img/add-chapter-keywords-02.png)
+
+3. 套用变更
+
+![套用变更](img/chapter-save-changes.png)
+
+### 删除小节
+
+:::warning
+
+-   每个章至少需要设定一个小节。
     :::
 
-1. 點擊 `刪除`，直接刪除小節
+1. 点击 `删除`，直接删除小节
 
-    ![刪除小節](img/delete-chapter-keywords.png)
+![删除小节](img/delete-chapter-keywords.png)
 
-2. 套用變更
+2. 套用变更
 
-    ![套用變更](img/chapter-save-changes.png)
+![套用变更](img/chapter-save-changes.png)

@@ -1,61 +1,61 @@
 ---
-title: 關鍵字群組可以做什麼
+title: 关键字群组可以做什么
 sidebar_position: 2.1
 ---
 
-# 關鍵字群組可以做什麼
+# 关键字群组可以做什么
 
-關鍵字群組的功能是幫助篩選及檢視目前已有的關鍵字，避免某個主題類型的關鍵字過多或者相似度過高，影響關聯結果。
+关键字群组的功能是帮助筛选及检视目前已有的关键字，避免某个主题类型的关键字过多或者相似度过高，影响关联结果。
 
-## 設定群組內容
+## 设定群组内容
 
-1. 進入關鍵字群組列表頁面
-   ![關鍵字群組](img/keyword-group-list.png)
+1. 进入关键字群组列表页面
+   ![关键字群组](img/keyword-group-list.png)
 
-2. 點選要修改的群組
-   ![關鍵字群組](img/go-to-set-keyword-group.png)
+2. 点选要修改的群组
+   ![关键字群组](img/go-to-set-keyword-group.png)
 
-3. 進入關鍵字群組設定頁面
-   ![設定關鍵字](img/keyword-group-01.png)
+3. 进入关键字群组设定页面
+   ![设定关键字](img/keyword-group-01.png)
 
-4. 可透過輸入框篩選/尋找關鍵字，
-   ![設定關鍵字](img/keyword-group-02.png)
+4. 可透过输入框筛选/寻找关键字，
+   ![设定关键字](img/keyword-group-02.png)
 
-5. 點選關鍵字，即可看到他跳轉到右邊
-   ![設定關鍵字](img/keyword-group-03.png)
-   ![設定關鍵字](img/keyword-group-04.png)
+5. 点选关键字，即可看到他跳转到右边
+   ![设定关键字](img/keyword-group-03.png)
+   ![设定关键字](img/keyword-group-04.png)
 
-6. 儲存變更
-   ![設定關鍵字](img/keyword-group-05.png)
+6. 储存变更
+   ![设定关键字](img/keyword-group-05.png)
 
-## 修改群組名稱
+## 修改群组名称
 
-1. 進入關鍵字群組設定頁面
-   ![關鍵字群組](img/go-to-set-keyword-group.png)
+1. 进入关键字群组设定页面
+   ![关键字群组](img/go-to-set-keyword-group.png)
 
-2. 點選 修改名稱
-   ![修改關鍵字群組名稱](img/edit-keyword-group-name-01.png)
+2. 点选 修改名称
+   ![修改关键字群组名称](img/edit-keyword-group-name-01.png)
 
-3. 點擊　完成
-   ![修改關鍵字群組名稱](img/edit-keyword-group-name-02.png)
+3. 点击　完成
+   ![修改关键字群组名称](img/edit-keyword-group-name-02.png)
 
-4. 點選 儲存變更
+4. 点选 储存变更
 
-    :::warning
-    保存變更後會送出資料，若檢測到重複名稱會無法儲存變更，且會回復所有變更！！
-    :::
-    ![設定關鍵字](img/keyword-group-05.png)
+:::warning
+保存变更后会送出资料，若检测到重复名称会无法储存变更，且会回复所有变更！ ！
+:::
+![设定关键字](img/keyword-group-05.png)
 
-## 刪除關鍵字群組
+## 删除关键字群组
 
-1. 進入關鍵字群組
-   ![關鍵字群組](img/keyword-group-list.png)
+1. 进入关键字群组
+   ![关键字群组](img/keyword-group-list.png)
 
-2. 點選刪除
+2. 点选删除
    :::danger
-   因為關鍵字只是輔助管理關鍵字，並不影響網站前端的各項顯示，因此這裡的刪除並沒有二次確認、亦無法回復操作行為。
+   因为关键字只是辅助管理关键字，并不影响网站前端的各项显示，因此这里的删除并没有二次确认、亦无法回复操作行为。
    :::
-   ![刪除關鍵字群組](img/delete-keyword-group-01.png)
+   ![删除关键字群组](img/delete-keyword-group-01.png)
 
-3. 刪除成功
-   ![刪除關鍵字群組](img/delete-keyword-group-02.png)
+3. 删除成功
+   ![删除关键字群组](img/delete-keyword-group-02.png)

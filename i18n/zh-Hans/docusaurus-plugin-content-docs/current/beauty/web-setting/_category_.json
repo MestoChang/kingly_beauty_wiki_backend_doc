@@ -1,8 +1,8 @@
 {
-    "label": "網站設定",
+    "label": "网站设定",
     "position": 2,
     "link": {
         "type": "generated-index",
-        "description": "SEO 及網站標題、icon 等設定"
+        "description": "SEO 及网站标题、icon 等设定"
     }
 }

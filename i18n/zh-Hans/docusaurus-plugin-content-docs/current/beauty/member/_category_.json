@@ -1,8 +1,8 @@
 {
-    "label": "會員管理",
+    "label": "会员管理",
     "position": 3,
     "link": {
         "type": "generated-index",
-        "description": "會員管理相關操作"
+        "description": "会员管理相关操作"
     }
 }

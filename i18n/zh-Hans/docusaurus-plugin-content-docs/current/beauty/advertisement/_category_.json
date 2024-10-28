@@ -1,8 +1,8 @@
 {
-    "label": "廣告管理",
+    "label": "广告管理",
     "position": 9,
     "link": {
         "type": "generated-index",
-        "description": "概覽頁面"
+        "description": "概览页面"
     }
 }

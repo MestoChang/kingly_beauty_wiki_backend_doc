@@ -1,46 +1,46 @@
 ---
-title: 刪除與還原媒體
+title: 删除与还原媒体
 sidebar_position: 2.4
 ---
 
-# 刪除與還原媒體
+# 删除与还原媒体
 
 :::warning
-這邊的刪除是把媒體移動到媒體回收桶，雖然是可還原操作，但一旦刪除了前端網頁上媒體就會是死圖，務必謹慎操作！
+这边的删除是把媒体移动到媒体回收桶，虽然是可还原操作，但一旦删除了前端网页上媒体就会是死图，务必谨慎操作！
 :::
 
-> 關於媒體資料夾的編輯操作功能，參考[媒體狀態與類別](./media-status.md#類別說明)。
+> 关于媒体资料夹的编辑操作功能，参考[媒体状态与类别](./media-status.md#类别说明)。
 
-## 如何刪除媒體
+## 如何删除媒体
 
-1. 媒體庫，進入文章圖片資料夾
-   ![進入文章圖片資料夾](img/go-to-article-folde.png)
+1. 媒体库，进入文章图片资料夹
+   ![进入文章图片资料夹](img/go-to-article-folde.png)
 
-2. 勾選要刪除的媒體
-   ![刪除媒體](img/delete-img-01.png)
+2. 勾选要删除的媒体
+   ![删除媒体](img/delete-img-01.png)
 
-3. 點選刪除
-   ![刪除媒體](img/delete-img-02.png)
+3. 点选删除
+   ![删除媒体](img/delete-img-02.png)
 
-4. 二次確認，點擊確定
+4. 二次确认，点击确定
 
-    ![刪除媒體](img/delete-img-03.png)
+![删除媒体](img/delete-img-03.png)
 
-5. 媒體會從列表中消失 -> 移動到媒體回收桶
-   ![刪除媒體](img/delete-img-04.png)
-   ![刪除媒體](img/delete-img-05.png)
+5. 媒体会从列表中消失 -> 移动到媒体回收桶
+   ![删除媒体](img/delete-img-04.png)
+   ![删除媒体](img/delete-img-05.png)
 
-## 如何還原媒體
+## 如何还原媒体
 
-1. 媒體庫，進入媒體回收桶
-   ![進入文章圖片資料夾](img/go-to-article-folde.png)
+1. 媒体库，进入媒体回收桶
+   ![进入文章图片资料夹](img/go-to-article-folde.png)
 
-2. 勾選要還原的媒體
-   ![還原刪除](img/recover-img-01.png)
+2. 勾选要还原的媒体
+   ![还原删除](img/recover-img-01.png)
 
-3. 點選還原
-   ![還原刪除](img/recover-img-02.png)
+3. 点选还原
+   ![还原删除](img/recover-img-02.png)
 
-4. 媒體會同回收桶消失 -> 回到原本資料夾
-   ![還原刪除](img/recover-img-03.png)
-   ![還原刪除](img/recover-img-04.png)
+4. 媒体会同回收桶消失 -> 回到原本资料夹
+   ![还原删除](img/recover-img-03.png)
+   ![还原删除](img/recover-img-04.png)

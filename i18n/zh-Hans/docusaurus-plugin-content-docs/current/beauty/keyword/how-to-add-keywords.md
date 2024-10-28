@@ -1,26 +1,26 @@
 ---
-title: 如何新增關鍵字
+title: 如何新增关键字
 sidebar_position: 1.1
 ---
 
-# 如何新增關鍵字
+# 如何新增关键字
 
-1. 進入關鍵字列表
+1. 进入关键字列表
 
-    ![關鍵字列表](img/keyword-list-01.png)
+![关键字列表](img/keyword-list-01.png)
 
-2. 點擊右上，新增關鍵字
+2. 点击右上，新增关键字
 
-    ![關鍵字列表](img/keyword-list-02.png)
+![关键字列表](img/keyword-list-02.png)
 
-3. 出現填寫關鍵字欄位
+3. 出现填写关键字栏位
 
-    ![新增關鍵字欄位](img/add-keyword.png)
+![新增关键字栏位](img/add-keyword.png)
 
-4. 點擊 `送出`，系統檢查沒有重複關鍵字即新增成功
+4. 点击 `送出`，系统检查没有重复关键字即新增成功
 
-    ![新增關鍵字成功](img/add-keyword-success.png)
+![新增关键字成功](img/add-keyword-success.png)
 
-    :::warning
-    如果同時新增多個關鍵字，只要有一個關鍵字重複即無法送出！
-    :::
+:::warning
+如果同时新增多个关键字，只要有一个关键字重复即无法送出！
+:::
