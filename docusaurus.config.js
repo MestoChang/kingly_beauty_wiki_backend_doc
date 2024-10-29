@@ -125,27 +125,24 @@ const config = {
                         type: "docSidebar",
                         sidebarId: "tutorialSidebar",
                         position: "left",
-                        label: "說明文件",
+                        label: "全部說明文件",
                     },
-                    // {
-                    //     type: "docSidebar",
-                    //     sidebarId: "centerSidebar",
-                    //     position: "left",
-                    //     label: "全域平台",
-                    // },
-                    // {
-                    //     type: "docSidebar",
-                    //     sidebarId: "beautySidebar",
-                    //     position: "left",
-                    //     label: "美容百科",
-                    // },
+                    {
+                        type: "docSidebar",
+                        sidebarId: "centerSidebar",
+                        position: "left",
+                        label: "全域平台",
+                    },
+                    {
+                        type: "docSidebar",
+                        sidebarId: "beautySidebar",
+                        position: "left",
+                        label: "美容百科",
+                    },
+
                     // { to: "/blog", label: "Blog", position: "left" },
-                    // {
-                    //     // !!! 與多語系衝突，先隱藏
-                    //     type: "localeDropdown",
-                    //     // queryString: "?persistent=true",
-                    //     position: "right",
-                    // },
+
+                    // 切換語系下拉選單
                     {
                         type: "localeDropdown",
                         position: "right",

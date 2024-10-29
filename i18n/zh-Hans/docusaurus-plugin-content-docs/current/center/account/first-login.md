@@ -1,22 +1,22 @@
 ---
-title: 首次登入帳號
+title: 首次登入帐号
 sidebar_position: 2.1
 ---
 
-# 首次登入帳號
+# 首次登入帐号
 
-首次登入必須綁定帳號資料和強制更新密碼。
+首次登入必须绑定帐号资料和强制更新密码。
 
-## 綁定帳號流程
+## 绑定帐号流程
 
-1. 輸入個人 e-mail 及強制更新密碼。
+1. 输入个人 e-mail 及强制更新密码。
    ![首次登入](img/bind-account.png)
 
-2. 點擊送出後，要去檢查個人信箱
-   ![認證 e-mail](img/vertify-email.png)
+2. 点击送出后，要去检查个人信箱
+   ![认证 e-mail](img/vertify-email.png)
 
-3. 點擊 e-mail 內連結
+3. 点击 e-mail 内连结
    ![e-mail信件](img/vertify-email-content.png)
 
-4. 認證成功，帳號才能開始使用。
-   ![e-mail 認證成功](img/vertify-email-seccessed.png)
+4. 认证成功，帐号才能开始使用。
+   ![e-mail 认证成功](img/vertify-email-seccessed.png)
