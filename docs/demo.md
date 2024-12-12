@@ -1,6 +1,6 @@
 ---
 title: 教學排程
-sidebar_position: 4
+sidebar_position: 1.1
 ---
 
 # 教學排程

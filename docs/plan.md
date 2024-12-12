@@ -1,6 +1,6 @@
 ---
 title: 後台系統功能清單
-sidebar_position: 4
+sidebar_position: 1
 ---
 
 # 後台系統功能清單

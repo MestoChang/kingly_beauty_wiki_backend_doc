@@ -125,7 +125,7 @@ const config = {
                         type: "docSidebar",
                         sidebarId: "tutorialSidebar",
                         position: "left",
-                        label: "全部說明文件",
+                        label: "說明文件指南",
                     },
                     {
                         type: "docSidebar",
