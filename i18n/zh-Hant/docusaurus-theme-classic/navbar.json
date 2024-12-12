@@ -6,5 +6,17 @@
   "item.label.說明文件": {
     "message": "說明文件",
     "description": "Navbar item with label 說明文件"
+  },
+  "item.label.說明文件指南": {
+    "message": "說明文件指南",
+    "description": "Navbar item with label 說明文件指南"
+  },
+  "item.label.全域平台": {
+    "message": "全域平台",
+    "description": "Navbar item with label 全域平台"
+  },
+  "item.label.美容百科": {
+    "message": "美容百科",
+    "description": "Navbar item with label 美容百科"
   }
 }

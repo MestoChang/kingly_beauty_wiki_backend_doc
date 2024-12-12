@@ -1,6 +1,6 @@
 ---
 title: 后台系统功能清单
-sidebar_position: 4
+sidebar_position: 1
 ---
 
 # 后台系统功能清单

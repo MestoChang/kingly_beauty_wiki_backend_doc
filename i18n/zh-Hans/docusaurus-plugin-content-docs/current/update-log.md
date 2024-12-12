@@ -1,6 +1,6 @@
 ---
 title: 版本更新纪录
-sidebar_position: 1
+sidebar_position: 0.1
 ---
 
 # 版本更新纪录
