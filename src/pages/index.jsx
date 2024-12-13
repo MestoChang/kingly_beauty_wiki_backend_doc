@@ -32,9 +32,7 @@ function HomepageHeader() {
                         className="button button--secondary button--lg"
                         to="/docs/intro"
                     >
-                        {currentLocale === "zh-Hans"
-                            ? "开始阅读文件"
-                            : "開始閱讀文件"}
+                        {currentLocale === "zh-Hans" ? "阅读文件" : "閱讀文件"}
                     </Link>
                 </div>
             </div>
