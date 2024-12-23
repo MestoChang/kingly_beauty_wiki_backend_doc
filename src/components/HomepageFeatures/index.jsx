@@ -10,7 +10,7 @@ const FeatureList = [
             <>
                 <a
                     className="button button--primary button--lg"
-                    href="https://wiki.kinglyrobot.com/root"
+                    href="https://wiki.kinglyrobot.com/"
                     target="_blank"
                     title="後臺管理系統"
                 >
