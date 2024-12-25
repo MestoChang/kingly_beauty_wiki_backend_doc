@@ -194,19 +194,19 @@ const config = {
                             },
                         ],
                     },
-                    {
-                        title: "Links",
-                        items: [
-                            {
-                                label: "backend-docs",
-                                to: "https://mestochang.github.io/kingly_beauty_wiki_backend_doc/",
-                            },
-                            {
-                                label: "frontend-docs",
-                                to: "https://ben0588.github.io/kingly_beauty_wiki_frontend_doc/",
-                            },
-                        ],
-                    },
+                    // {
+                    //     title: "Links",
+                    //     items: [
+                    //         {
+                    //             label: "backend-docs",
+                    //             to: "https://mestochang.github.io/kingly_beauty_wiki_backend_doc/",
+                    //         },
+                    //         {
+                    //             label: "frontend-docs",
+                    //             to: "https://ben0588.github.io/kingly_beauty_wiki_frontend_doc/",
+                    //         },
+                    //     ],
+                    // },
                 ],
                 copyright: `Copyright © ${new Date().getFullYear()}. 王道機器人股份有限公司`,
             },
