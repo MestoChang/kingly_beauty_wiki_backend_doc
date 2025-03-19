@@ -139,6 +139,12 @@ const config = {
                         position: "left",
                         label: "美容百科",
                     },
+                    {
+                        type: "docSidebar",
+                        sidebarId: "sportSidebar",
+                        position: "left",
+                        label: "運動百科",
+                    },
 
                     // { to: "/blog", label: "Blog", position: "left" },
 
