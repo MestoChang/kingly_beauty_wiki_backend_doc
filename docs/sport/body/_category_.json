@@ -1,0 +1,8 @@
+{
+    "label": "部位管理",
+    "position": 4,
+    "link": {
+        "type": "generated-index",
+        "description": "身體部位列表"
+    }
+}

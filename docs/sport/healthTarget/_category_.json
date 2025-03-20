@@ -1,0 +1,8 @@
+{
+    "label": "健康目的管理",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "設定健康目的與課程關聯"
+    }
+}

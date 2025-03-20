@@ -1,0 +1,8 @@
+{
+    "label": "APP 運動課程",
+    "position": 5,
+    "link": {
+        "type": "generated-index",
+        "description": "APP 內所有課程資料"
+    }
+}
